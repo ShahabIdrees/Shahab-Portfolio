@@ -16,6 +16,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   tags,
   image,
   sourceCodeLink,
+  linkImg = github,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,12 +27,12 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[360px]">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
               alt={name}
-              className="h-full w-full rounded-2xl object-cover"
+              className="h-full w-full rounded-2xl object-contain"
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
               <div
@@ -39,7 +40,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
               >
                 <img
-                  src={github}
+                  src={linkImg}
                   alt="github"
                   className="h-1/2 w-1/2 object-contain"
                 />

@@ -17,7 +17,7 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 xs:w-[320px] w-full rounded-3xl p-10"
+    className="bg-black-200 xs:w-[480px] w-full rounded-3xl p-10"
   >
     <p className="text-[48px] font-black text-white">"</p>
 
@@ -30,7 +30,7 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
             <span className="blue-text-gradient">@</span> {name}
           </p>
           <p className="text-secondary mt-1 text-[12px]">
-            {designation} of {company}
+            {designation} at {company}
           </p>
         </div>
 

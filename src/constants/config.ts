@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Shahab Idrees",
+    fullName: "Shahab Idrees",
+    email: "shahabchattha@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Shahab Idrees",
+    p: ["I create mobile and web apps that deliver smooth and practical experiences, helping businesses run more efficiently."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a skilled software developer with expertise in JavaScript, React, React Native, Swift, and SwiftUI, bringing a unique blend of mobile and web development experience. I’m quick to adapt, learn new technologies, and work closely with clients to deliver seamless, user-friendly, and high-performing solutions. Whether it’s building apps from scratch or refining existing projects, I focus on creating impactful products that make a real difference. Let's collaborate and turn your ideas into standout solutions!`,
     },
     experience: {
       p: "What I have done so far",
