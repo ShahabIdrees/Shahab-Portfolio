@@ -46,6 +46,8 @@ import GorexMerchantCover from "./gorex-merchant-cover.png";
 import Rexix from "./rexix.png";
 import PlayStore from "./playstore.webp";
 
+
+import Home from "./home.webp";
 export {
   logo,
   backend,
@@ -90,5 +92,6 @@ export {
   GorexMerchantCover,
   PlayStore,
   Rexix,
-  East
+  East,
+  Home
 };
